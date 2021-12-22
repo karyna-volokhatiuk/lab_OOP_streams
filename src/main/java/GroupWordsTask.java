@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static java.util.stream.Collectors.toList;
+import static java.util.stream.Collectors.*;
 
 public class GroupWordsTask {
     public static HashMap<Character, List<Integer>> groupIt(List<String> strArr){
